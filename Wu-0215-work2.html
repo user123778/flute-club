@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>长笛社招新</title>
+    <style>
+        body {
+            width: 92%;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 1.8;
+            background-color: #fff9ee;
+        }
+        /* 左上角音频播放器容器 */
+        .audio-box {
+            position: fixed;
+            top:12px;
+            left:12px;
+            z-index: 999;
+        }
+        .audio-box audio{
+            width: 280px;
+        }
+        .back-top{
+            margin:20px 0;
+            display:block;
+        }
+        table{
+            border-collapse: collapse;
+            width:100%;
+        }
+        th,td{
+            border:1px solid #222;
+            padding: 8px;
+            text-align:center;
+        }
+        h1{
+            color:#e67e22;
+            text-align:center;
+            margin-top:40px;
+        }
+        h2{
+            color:#e67e22;
+        }
+        nav{
+            text-align:center;
+            font-size:18px;
+            margin:15px 0;
+        }
+        nav a{
+            margin:0 6px;
+            color:#2980b9;
+            text-decoration: none;
+        }
+        nav a:hover{
+            color:#e67e22;
+        }
+        img{
+            max-width:600px;
+        }
+    </style>
+</head>
+<body>
+<!-- ✅原生播放器 -->
+<div class="audio-box">
+    <audio id="bgMusic" src="flute.mp3" controls loop>
+</div>
+
+<h1 id="top">长笛社｜愿笛声伴你，奔赴热爱</h1>
+
+<!-- 锚点导航 5个板块 -->
+<nav>
+    <a href="#intro">社团简介</a> |
+    <a href="#activity">活动安排</a> |
+    <a href="#show">风采展示</a> |
+    <a href="#story">社员故事</a> |
+    <a href="#apply">在线报名</a>
+</nav>
+
+<!-- ==========社团简介========== -->
+<div id="intro">
+    <h2>社团简介</h2>
+    <p>长笛社是校园里温柔优雅的器乐兴趣社团，面向全校所有喜爱管乐、喜欢旋律的同学开放，零基础友好，不需要提前会吹长笛，暂时没有乐器也可以先来体验。不管你偏爱古典乐曲、轻音乐，或是动漫、流行改编曲目，在这里都能找到志同道合的伙伴。
+我们每周开设公益教学，由有演奏经验的学长学姐带领大家入门：从持笛姿势、气息练习、嘴型控制、基础指法，到简单音阶、练习曲、独奏小曲，循序渐进带你吹出好听的旋律。社团不只是学习乐器的课堂，更是可以静心感受音乐、结识好友的温暖集体。当学习疲惫的时候，不妨静下心来，让舒缓的笛声抚平焦虑。
+社团会定期举办室内小型演奏会、草坪笛音分享会、节日专场演出，给大家上台展示、锻炼胆量的机会。很多社员一开始控制不好气息、吹不出稳定的音色，慢慢坚持练习，最终可以完整演奏曲目，在悠扬的笛声里收获自信与感动。
+欢迎每一个喜欢长笛、喜欢管乐旋律的你，加入我们，一起练习、聆听、合奏，让笛声回荡在校园各处。</p>
+    <a href="#top" class="back-top">🔝返回顶部</a>
+</div>
+
+<!-- ==========活动安排（跨行跨列表格）========== -->
+<div id="activity">
+    <h2>活动安排</h2>
+    <table>
+        <tr>
+            <th colspan="4">长笛社 学期活动安排表</th>
+        </tr>
+        <tr>
+            <th>活动名称</th>
+            <th>时间</th>
+            <th>地点</th>
+            <th>面向对象</th>
+        </tr>
+        <tr>
+            <td rowspan="2">新成员见面会</td>
+            <td>第3周 周四晚19:00</td>
+            <td>音乐厅201教室</td>
+            <td>全体新社员</td>
+        </tr>
+        <tr>
+            <td>第4周 周四晚19:00</td>
+            <td>音乐厅201教室</td>
+            <td>补到场同学</td>
+        </tr>
+        <tr>
+            <td>长笛基础公开课</td>
+            <td>每周四晚19:00</td>
+            <td>音乐厅201教室</td>
+            <td>零基础社员</td>
+        </tr>
+        <tr>
+            <td>草坪笛音分享会</td>
+            <td>第8周 周六下午16:00</td>
+            <td>校园中心草坪</td>
+            <td>全部社员</td>
+        </tr>
+        <tr>
+            <td>社团内部独奏合奏比赛</td>
+            <td>第14周 周五18:30</td>
+            <td>大学生活动中心小剧场</td>
+            <td>自愿报名社员</td>
+        </tr>
+    </table>
+    <a href="#top" class="back-top">🔝返回顶部</a>
+</div>
+
+<!-- ==========风采展示========== -->
+<div id="show">
+    <h2>风采展示</h2>
+    <a href="club_intro.html">
+        <img src="flute.jpg" alt="长笛社招新海报">
+    </a>
+    <p>点击海报，查看音乐会详情</p>
+
+    <h3>社团活动短视频</h3>
+    <embed src="flute.mp4" width="640" height="360">
+    <a href="#top" class="back-top">🔝返回顶部</a>
+</div>
+
+<!-- ==========社员故事========== -->
+<div id="story">
+    <h2>社员故事</h2>
+    <p>小笛是一名大一新生，刚来到大学的时候不太擅长表达自己，一直很喜欢长笛清亮通透的音色，但从来没有机会学习。百团大战时，她在长笛社摊位前驻足很久，犹豫之后鼓起勇气报名加入。
+第一次上课，她连正确的嘴型都很难找准，气息不稳，吹出来的声音沙哑刺耳，吹一小会儿就头晕，好几次想要放弃。带课的学姐耐心安慰她，告诉所有新手都会经历气息不稳的阶段，长笛非常考验气息控制，慢慢练习就会进步，不用急于求成。
+之后每周的公开课她都准时到场，课余时间找安静的地方练习气息、熟悉指法。慢慢她找到了适合自己的呼吸节奏，音色变得干净平稳，学会了第一首简短的小曲，当完整旋律从笛管流出的时候，那份喜悦难以言喻。
+第一次草坪笛音分享会，她只愿意坐在台下安静聆听其他人演奏。在社员们的鼓励下，她试着上台吹奏一段练习曲，中间出现小小的失误，但大家都温柔地为她鼓掌，没有一丝嘲笑。慢慢她敢于主动参与合奏排练，还报名参加了校内的文艺晚会。
+到了大二，她也加入社团教学小组，带着新来的零基础同学练习气息和指法，把自己当初踩过的坑、练习心得分享给学弟学妹。长笛带给她的不只是一门乐器技能，更是一个表达情绪、结交同好的出口。
+社团里这样的故事还有很多，有基础的同学在这里打磨独奏、组队重奏；也有学业繁忙的同学，把吹长笛当作放松解压的方式。我们接纳所有水平的爱好者，只要你热爱笛声，这里就有你的一席之地。期待属于你的故事，在长笛社缓缓开启。</p>
+    <a href="#top" class="back-top">🔝返回顶部</a>
+</div>
+
+<!-- ==========在线报名表单========== -->
+<div id="apply">
+    <h2>长笛社在线报名表</h2>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>姓名：</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="gender" value="male">男
+                    <input type="radio" name="gender" value="female">女
+                </td>
+            </tr>
+            <tr>
+                <td>出生日期：</td>
+                <td>
+                    年：<input type="text" name="year" size="4">
+                    月：<input type="text" name="month" size="2">
+                    日：<input type="text" name="day" size="2">
+                </td>
+            </tr>
+            <tr>
+                <td>手机号码：</td>
+                <td><input type="text" name="phone"></td>
+            </tr>
+            <tr>
+                <td>邮箱：</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>是否有长笛基础：</td>
+                <td>
+                    <input type="radio" name="hasbase" value="yes">有
+                    <input type="radio" name="hasbase" value="no">无
+                </td>
+            </tr>
+            <tr>
+                <td>兴趣方向（多选）：</td>
+                <td>
+                    <input type="checkbox" name="hobby" value="classic">古典乐曲
+                    <input type="checkbox" name="hobby" value="light">轻音乐
+                    <input type="checkbox" name="hobby" value="anime">动漫OST
+                    <input type="checkbox" name="hobby" value="ensemble">重奏合奏
+                </td>
+            </tr>
+            <tr>
+                <td>年级：</td>
+                <td>
+                    <select name="grade">
+                        <option value="fresh">大一</option>
+                        <option value="soph">大二</option>
+                        <option value="jun">大三</option>
+                        <option value="sen">大四</option>
+                        <option value="gra">研究生</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>自我介绍：</td>
+                <td>
+                    <textarea name="intro" rows="6" cols="40" placeholder="简单说说你为什么想加入长笛社……"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>是否服从社团安排：</td>
+                <td>
+                    <input type="radio" name="agree" value="yes">是
+                    <input type="radio" name="agree" value="no">否
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="提交">
+                    <input type="reset" value="重置">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <a href="#top" class="back-top">🔝返回顶部</a>
+</div>
+
+</body>
+</html>
